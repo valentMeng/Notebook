@@ -1,9 +1,12 @@
 package com.valent.notebook.algorithm;
 
-public class AlgoTest1 {
-    public static void main(String[] args) {
+import cn.wanghaomiao.seimi.core.Seimi;
 
-    }
+public class AlgoTest1 {
+
+
+
+
 
     // [1,1,2,3,3]
     // [1,1,1]
