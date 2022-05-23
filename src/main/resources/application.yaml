@@ -1,0 +1,14 @@
+security:
+    basic:
+      enabled: false
+
+seimi:
+  crawler:
+    enabled: true
+    names: basic,test,doubanMovieCrawler
+    enable-redisson-queue: false
+
+
+person:
+  name: Morty
+  age: 2

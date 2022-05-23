@@ -1,4 +1,4 @@
-package com.valent.notebook.crawler;
+package com.valent.notebook.crawlers;
 
 
 import cn.wanghaomiao.seimi.annotation.Crawler;
