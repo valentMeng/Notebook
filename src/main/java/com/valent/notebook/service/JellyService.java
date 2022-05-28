@@ -1,4 +1,4 @@
-package com.valent.notebook;
+package com.valent.notebook.service;
 
 import org.springframework.stereotype.Service;
 

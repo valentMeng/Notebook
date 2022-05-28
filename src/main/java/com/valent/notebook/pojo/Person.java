@@ -1,40 +1,23 @@
 package com.valent.notebook.pojo;
 
+import lombok.Data;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
-@Component
-@ConfigurationProperties(prefix = "person")
+import java.util.Date;
+
+@Data
 public class Person {
 
     // @Value("Rick")
     String name;
 
     // @Value("21")
-    Integer age;
+    Integer height;
 
-    public String getName() {
-        return name;
-    }
+    Date birth;
 
-    public void setName(String name) {
-        this.name = name;
-    }
+    Integer order;
 
-    public Integer getAge() {
-        return age;
-    }
-
-    public void setAge(Integer age) {
-        this.age = age;
-    }
-
-    @Override
-    public String toString() {
-        return "Person{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                '}';
-    }
 }
